@@ -4,7 +4,7 @@ CSS Grid: Áreas
 
 ## 🥕 ¿En qué consiste?
 
-La idea de este reto es que repliques el siguiente componente usando Flexbox. En Flexbox tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
+La idea de este reto es que repliques el siguiente componente usando CSS Grid. En CSS Grid tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
 
 <kbd>
 <img src="https://i.ibb.co/G3DZnt6/Screen-Shot-2020-07-26-at-3-22-10-AM.png" alt="componente para replicar" />
