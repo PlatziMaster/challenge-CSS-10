@@ -1,6 +1,6 @@
 # 🥕 Challenge CSS 10
 
-Flexbox: Card
+CSS Grid: Áreas
 
 ## 🥕 ¿En qué consiste?
 
