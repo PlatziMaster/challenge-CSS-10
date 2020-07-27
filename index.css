@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 10% 35% 15% 40%;
+  padding: 3em;
+  background-color: #FFBD11;
+  border: 10px solid #05C6AD;
+}
+.login__img {
+  grid-row: 1 / 4;
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.login__img img {
+  height: 100%;
+}
+.login__card {
+  grid-row: 3 / span 2;
+  grid-column: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2em;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.login__title {
+  font-weight: 600;
+  font-size: 2em;
+}
+.login__description {
+  margin-bottom: 2em;
+}
+.boton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.boton:active {
+  transform: scale(.95);
+}
+.boton p {
+  margin-left: 20px;
+}
+.login__boton__email {
+  background-color: #18191E;
+}
+.login__boton__facebook {
+  background-color: #1A47E6;
+}
+.login__boton__twitter {
+  background-color: #05C6AD;
+}
+.exit {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.5em;
+  border: 2px solid black;
+  box-shadow: 0px 2px 2px black;
+}
+.exit:active{
+  transform: scale(.9);
+}
