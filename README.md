@@ -2,6 +2,12 @@
 
 CSS Grid: Login
 
+## 🛠 Challenge Done!
+
+<!-- <kbd>
+<img width="800" src="/assets/result.png" alt="Resultado Final">
+</kbd> -->
+
 ## 🥕 ¿En qué consiste?
 
 La idea de este reto es que repliques el siguiente componente usando CSS Grid. En CSS Grid tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
@@ -14,11 +20,11 @@ La idea de este reto es que repliques el siguiente componente usando CSS Grid. E
 
 Te dejo la siguiente documentación útil para resolver el reto:
 
-* [CSS Grid Garden| Juego](https://cssgridgarden.com/#es)
-* [A Complete Guide to Grid | CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [Grid in CSS | CSS Reference](https://cssreference.io/css-grid/)
-* [Learn CSS Grid](https://learncssgrid.com/)
-* [Grid by Example](https://gridbyexample.com/examples/)
+- [CSS Grid Garden| Juego](https://cssgridgarden.com/#es)
+- [A Complete Guide to Grid | CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid in CSS | CSS Reference](https://cssreference.io/css-grid/)
+- [Learn CSS Grid](https://learncssgrid.com/)
+- [Grid by Example](https://gridbyexample.com/examples/)
 
 ## 🥕 Pasos a seguir:
 
