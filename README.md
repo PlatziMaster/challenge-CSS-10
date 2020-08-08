@@ -7,28 +7,13 @@ CSS Grid: Login
 La idea de este reto es que repliques el siguiente componente usando CSS Grid. En CSS Grid tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
 
 <kbd>
-<img width="300" src="https://i.ibb.co/2KkPCtT/Screen-Shot-2020-07-26-at-4-05-47-AM.png" alt="componente para replicar" />
+<img width="300" src="https://camo.githubusercontent.com/5d6e95f19a0acae860a0f50ce882c04027874af8/68747470733a2f2f692e6962622e636f2f324b6b504374542f53637265656e2d53686f742d323032302d30372d32362d61742d342d30352d34372d414d2e706e67"
+alt="componente para replicar" />
 </kbd>
 
-> [Fuente de la imagen | UI Store](https://www.uistore.design/items/contra-open-source-wireframe-kit/)
+## 🚀 !Login con CSS GRID¡
 
-Te dejo la siguiente documentación útil para resolver el reto:
-
-* [CSS Grid Garden| Juego](https://cssgridgarden.com/#es)
-* [A Complete Guide to Grid | CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [Grid in CSS | CSS Reference](https://cssreference.io/css-grid/)
-* [Learn CSS Grid](https://learncssgrid.com/)
-* [Grid by Example](https://gridbyexample.com/examples/)
-
-## 🥕 Pasos a seguir:
-
-1. Hacer un "Fork" de este proyecto.
-2. Revolver el reto.
-3. Crear un Pull Request hacia este repositorio.
-
-## 🥕 ¿Cómo contribuir?
-
-Si quieres agregar o mejorar algo, te invito a colaborar directamente en este repositorio: [challenge-css-10](https://github.com/platzimaster/challenge-css-10/)
+Si deseas hacer aportes enviame un Pull Request y estare muy contento de seguir aprendiendo.
 
 ## 🥕 Licencia
 
