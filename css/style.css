@@ -2,12 +2,14 @@
 body{
     margin: 0;
     background-image:url("http://dreamicus.com/data/metal/metal-02.jpg");
-    /*background: red;*/
+    background-repeat: initial;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
+/*
 .contenedor{
     margin-top: 20px;
     width:300px;
@@ -16,16 +18,106 @@ body{
     background:rgb(204, 203, 203);
     grid-template-columns: 2.5% 4% 87% 4% 2.5%;
     grid-template-rows: 2.5% 7.5% 5% 35% 42.5% 5%  2.5%;
-    /*border: 5px solid white;*/
-}
-.sub-contenedor{
-    grid-column: 2/5;
-    grid-row: 2/7;
-    background-image: url("https://previews.123rf.com/images/ledinka/ledinka1504/ledinka150400001/38930260-l%C3%A1ser-de-red-de-ne%C3%B3n-con-haces-aleatorios-para-mostrar-discoteca-o-fiesta.jpg");
+    /*border: 5px solid white;
+      grid-template-columns: 2.5% 4% 87% 4% 2.5%;
+    grid-template-rows: 2.5% 7.5% 5% 35% 42.5% 5%  2.5%;
+    https://previews.123rf.com/images/ledinka/ledinka1504/ledinka150400001/38930260-l%C3%A1ser-de-red-de-ne%C3%B3n-con-haces-aleatorios-para-mostrar-discoteca-o-fiesta.jpg
+}*/
+.contenedor{
+    margin-top: 20px;
+    width:400px;
+    height: 800px;
+    display: grid;
+    background:rgb(0, 0, 0);
     background-size: cover;
+    border:10px solid  #f8e9fa;
+    box-shadow:  0px 0px 15px 3px rgba(0,0,0,1);
+    grid-template-columns:  6.5% 87% 6.5% ;
+    grid-template-rows: 10% 5% 35% 42.5% 7.5% ;
+}
+.contenedor__imagen{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    background-image: url("https://i.pinimg.com/564x/15/10/cd/1510cd08a4f723ab5563c66c8af3ae35.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: inset 0px 0px 16px 0px rgba(255,255,255,1);}
+.login{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    background: #ffffff;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 40% 20% 20% 20%;
+    grid-template-columns: 5% 90% 5%;
+    box-shadow: inset 0px 0px 15px 3px rgba(0,0,0,1);
+}
+.descripcion{
+    grid-row: 1/2;
+    grid-column: 2/3; 
+}
+.descripcion h1{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion p{
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.email{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: white;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email img{
+    width: 30px;
+    padding-right: 10px;
 }
 
-.exit{
+.face{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
     grid-row: 3/4;
-    grid-column: 3/4;
+    grid-column: 2/3;
+    color: white;
+    background: #1976D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face img{
+    width: 30px;
+    padding-right: 10px;
+}
+.tw{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    color: white;
+    background: rgb(23, 255, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tw img{
+    width: 30px;
+    padding-right: 10px;
+    filter: grayscale(51%)  sepia(1) saturate(0.81) opacity(1) brightness(0%) contrast(100%) hue-rotate(320deg) invert(100%);
 }
