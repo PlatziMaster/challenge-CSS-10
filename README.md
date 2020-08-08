@@ -7,7 +7,7 @@ CSS Grid: Login
 La idea de este reto es que repliques el siguiente componente usando CSS Grid. En CSS Grid tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
 
 <kbd>
-<img width="300" src="https://i.ibb.co/2KkPCtT/Screen-Shot-2020-07-26-at-4-05-47-AM.png" alt="componente para replicar" />
+<img width="300" src="http://127.0.0.1:5500/index.html" alt="componente para replicar" />
 </kbd>
 
 > [Fuente de la imagen | UI Store](https://www.uistore.design/items/contra-open-source-wireframe-kit/)
