@@ -2,11 +2,11 @@
 
 CSS Grid: Login
 
-## 🛠 Challenge Done!
+## 🏆 Challenge Done!
 
-<!-- <kbd>
+<kbd>
 <img width="800" src="/assets/result.png" alt="Resultado Final">
-</kbd> -->
+</kbd>
 
 ## 🥕 ¿En qué consiste?
 
