@@ -5,7 +5,7 @@ CSS Grid: Login
 ## 🏆 Challenge Done!
 
 <kbd>
-<img width="800" src="/assets/result.png" alt="Resultado Final">
+<img width="400" src="/assets/result.png" alt="Resultado Final">
 </kbd>
 
 ## 🥕 ¿En qué consiste?
