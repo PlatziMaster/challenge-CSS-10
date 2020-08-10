@@ -1,0 +1,127 @@
+.body {
+
+    background: radial-gradient(circle, rgba(5,189,168,0.5270483193277311) 50%, rgba(140,157,155,1) 89%);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+
+    --fondo-color-card: white;
+
+}
+
+/* ----- Contenedores principales ----- */
+
+.container1 {
+
+    border: 1px solid rgba(0,0,0,.54);
+    border-radius: 15px;
+    background: #ffffff8a;
+    height: 95%;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 25%;
+   
+}
+
+.container2 {
+    
+    border:  1px solid var(--fondo-color-card);
+    background: #6699ad;
+    height: 98%;
+    margin: 5px;
+
+}
+
+.container3 {
+    
+    background: var(--fondo-color-card); 
+    background-image: url('https://images.pexels.com/photos/2220314/pexels-photo-2220314.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');  
+    height: 96%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+/* ----- Login ----- */
+
+.item1 {
+
+    border: 2px solid black;
+    border-radius: 15px;
+    background: var(--fondo-color-card);
+    display: grid;
+    grid-template: repeat(2, 1fr)  / 1fr;
+    height: 50%;
+    margin-left: 10%;
+    position: relative;
+    top: 45%;
+    width: 80%;
+
+}
+
+.title {
+
+    font-size: 20px;
+    text-align: center;
+  
+}
+
+/* ----- Parte descriptiva del login ----- */
+
+.description {
+
+    font-size: 12px;
+    text-align: center;
+
+}
+.botones_item1 { 
+
+    display: grid;
+    grid-template: repeat(3, 1fr)  / 1fr;
+    justify-self: center;
+    padding: 10px;
+    width: 80%;
+    
+}
+
+/* ----- botones del login ----- */
+
+.buton1, .buton2, .buton3 {
+  
+    border-radius: 15px;
+    color: var(--fondo-color-card);
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 5px;
+   
+}
+
+.buton1 {
+
+    background: black;
+
+}
+
+.buton2 {
+
+    background:#29487d;
+
+}
+
+.buton3 {
+
+    background: rgb(29, 161, 242);
+    
+}
+
+.icon_buton {
+    
+    vertical-align: middle;
+}
+
+/* ----- Fin ----- */
