@@ -1,0 +1,117 @@
+/*Distribucion
+box model
+Posicion
+fonts
+visual
+miscelanea
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Chilanka', cursive;
+}
+
+#container {
+    height: 500px;
+    width: 300px;
+    position: relative;
+    background-color: #07c6ad;
+    display: grid;
+    grid-template-columns: 3% 94% 3%;
+    grid-template-rows: 3% 94% 3%;
+}
+
+#container__login {
+    height: auto;
+    width: auto;
+    background-color: #f1d32c;
+    background-image: url(https://images.pexels.com/photos/982104/pexels-photo-982104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 3% 94% 3%;
+    grid-template-rows: 50% 47% 3%;
+}
+
+#container__login--boton {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+#container__login--boton  img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#container__login--div {
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#container__login--div a {
+    height: 20px;
+    padding-top: 5px;
+    margin-top: 7px;
+    font-size: 1em;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;   
+    border-radius: 10px;
+}
+
+#container__login--div img {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.login--titulo {
+    padding-top: 10px;
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.login--p {
+    margin: 5px;
+    font-size: .8em;
+    text-align: center;
+    text-transform: capitalize;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.p--boton1 {
+    background-color: #18191e;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.p--boton2 {
+    background-color: #1947e6;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.p--boton3 {
+    background-color: #07c6ad;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
