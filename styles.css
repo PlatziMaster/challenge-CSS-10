@@ -71,9 +71,10 @@ body{
 
 .container__login--div a{  
   text-decoration: none;
-  height: 35px;
-  margin-top: 7px;
-  padding-top: 0px;
+  height: 35px;  
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-top: 10px;
   font-size: 1.2em;
   text-align: center;  
   color: white;
@@ -83,12 +84,13 @@ body{
 
 .container__login--div img{  
   height: 20px;
-   vertical-align: text-bottom;
+  vertical-align: text-bottom;
 }
 
 h1{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    margin: auto;
     text-align: center;  
     
 }
@@ -96,6 +98,8 @@ p {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   color: #93949C;
+  margin-bottom: 5px;
+  text-align: center;  
 }
 .p--boton1{
   grid-column: 2 /3 ;
